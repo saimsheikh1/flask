@@ -1,10 +1,11 @@
 from flask import Flask
 
 my_obj = Flask (__name__)
+name  = {'username': 'Lisa'}
+city_names = ['Paris', 'London', 'Rome', 'Tahiti']
 @my_obj.route("/")
 def home():
-    name  = {'username': 'Lisa'}
-    city_names = ['Paris', 'London', 'Rome', 'Tahiti']
+
     return '''
     <html>
     <body>
