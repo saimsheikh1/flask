@@ -22,4 +22,4 @@ def home():
     </body>
     </html>
     '''
-my_obj.run()
+# my_obj.run()
