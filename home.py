@@ -9,9 +9,7 @@ def home():
     return '''
     <html>
     <body>
-        <h1>
-        Welcome '''+ name + '''!</h1>
-        
+        <h1>Welcome ''' + name + '''!</h1>
         <a href ="www.google.com">notgoogle</a>
         
         <ul>
