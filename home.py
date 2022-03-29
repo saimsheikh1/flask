@@ -10,7 +10,7 @@ def home():
     <html>
     <body>
         <h1>
-        Welcome '''+ name + ''' </h1>
+        Welcome '''+ name + '''! </h1>
         <div>
             <a href ="www.google.com">notgoogle</a>
         </div>
