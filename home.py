@@ -10,10 +10,10 @@ def home():
     <html>
     <body>
         <h1>
-        Welcome '''+ name + '''! </h1>
-        <div>
-            <a href ="www.google.com">notgoogle</a>
-        </div>
+        Welcome '''+ name + '''!</h1>
+        
+        <a href ="www.google.com">notgoogle</a>
+        
         <ul>
             <li> '''+city_names[0]+''' </li>
             <li> '''+city_names[1]+''' </li>
