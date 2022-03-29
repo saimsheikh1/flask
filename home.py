@@ -12,7 +12,7 @@ def home():
         <h1>
         Welcome '''+ name['username'] + ''' </h1>
         <div>
-            <a href ="https://www.google.com">notgoogle</a>
+            <a href ="www.google.com">notgoogle</a>
         </div>
         <ul>
             <li> '''+city_names[0]+''' </li>
