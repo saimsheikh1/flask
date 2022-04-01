@@ -1,4 +1,4 @@
-from app import my_obj
+from app import myobj
 
 from flask import render_template, flash, Flask, redirect, url_for, request
 
@@ -9,7 +9,7 @@ city_names = ['Paris', 'London', 'Rome', 'Tahiti']
 #city_names = list, city = string field 
 
 
-@my_obj.route("/", methods=['GET', 'POST'])
+@myobj.route("/", methods=['GET', 'POST'])
 def home():
     
     if (request.method=='POST'):
@@ -18,7 +18,7 @@ def home():
     return render_template("home.html", name = name, city_names= city_names)
     
 if __name__ == "__main__":
-    my_obj.run(debug=True)
+    myobj.run(debug=True)
     #app.run(port= 80)
 
 
